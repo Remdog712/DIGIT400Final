@@ -1,0 +1,9 @@
+# Node modules
+/node_modules
+
+# Eleventy output
+_site/
+
+# OS files
+.DS_Store
+Thumbs.db
