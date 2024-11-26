@@ -3,9 +3,15 @@ title: Model 3
 layout: base.njk
 ---
 
-# Model 1: Pumpkin Boat
+# Model 1: Pumkin Used As A Fishing Boat
+*Couple of notes: Flags are messed up and will be changed later and the looping will be cleaned so its less jittery at the end.
 
 <canvas id="modelCanvas"></canvas>
+
+<script type="module">
+  import { initModel } from '../../js/model-viewer.js';
+  initModel();
+</script>
 
 ## Inspiration
 
@@ -15,14 +21,8 @@ layout: base.njk
 
 ## Credits
 
-- **Artist:** Unknown
-- **Source:** [Artvee](https://artvee.com)
+**Artist:** Filippo Morghen
 
-## Description
+## Description of artist from Artvee which will be edited later: 
 
-An animated 3D model inspired by a whimsical artwork depicting a pumpkin used as a fishing boat.
-
-<audio controls>
-  <source src="../../assets/model1-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+"Filippo Morghen was an Italian printmaker and engraver, born in Florence but working in Naples from circa 1760. Much of his work comprised engravings of the antiquities of Italy, such as the ruined cities of Paestum and Herculaneum, showing their architecture, frescoes, statues and other art."
