@@ -2,16 +2,11 @@
   "name": "digit400final",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "start": "eleventy --serve",
-  "build": "eleventy",
-  "deploy": "npx gh-pages -d _site"
-},
-
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "deploy": "npx gh-pages -d _site"
+  },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "three": "^0.170.0"

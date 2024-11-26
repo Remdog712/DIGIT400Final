@@ -3,6 +3,6 @@ title: Home
 layout: base.njk
 ---
 
-# Welcome to the 3D Models Project
+# Welcome to the ThreeJS Project / Personal Portfolio
 
-This project showcases three different 3D models with animation, inspired by classic artworks.
+My resume and other links to a gallery will be put here, but this project was developed using Eleventy, Three.js, and Nunjucks. It showcases 3D models inspired by historical art.
