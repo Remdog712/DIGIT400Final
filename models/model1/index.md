@@ -1,6 +1,7 @@
 ---
 title: Model 1
 layout: base.njk
+permalink: model1.html
 ---
 
 # Model 1: Pumkin Used As A Fishing Boat
