@@ -1,6 +1,7 @@
 ---
 title: Model 1
 layout: base.njk
+permalink: model1.html
 ---
 
 # Model 1: Pumkin Used As A Fishing Boat
@@ -9,13 +10,13 @@ layout: base.njk
 <canvas id="modelCanvas"></canvas>
 
 <script type="module">
-  import { initModel } from '../../js/model-viewer.js';
+  import { initModel } from './js/model-viewer.js';
   initModel();
 </script>
 
 ## Inspiration
 
-![Pumpkin Boat](../../assets/pumpkin-boat.jpg)
+![Pumpkin Boat](./assets/pumpkin-boat.jpg)
 
 *Image Source: [A Pumpkin Used as a Fishing Boat](https://artvee.com/dl/a-pumpkin-used-as-a-fishing-boat/)*
 
