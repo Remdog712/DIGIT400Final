@@ -27,7 +27,7 @@ export function initModel() {
   // HDRI background setup (has to be .hdr because .exr didn't work - acquired CC0 from Polyhaven)
   const rgbeLoader = new RGBELoader();
   rgbeLoader.load(
-    '/assets/autumn_field_puresky_1k.hdr',
+    '../assets/autumn_field_puresky_1k.hdr',
     (texture) => {
       texture.mapping = THREE.EquirectangularReflectionMapping;
       scene.environment = texture;
@@ -45,7 +45,7 @@ export function initModel() {
   let mixer;
   const loader = new GLTFLoader();
   loader.load(
-    '/assets/PumpkinTest17.glb',
+    '../assets/PumpkinTest17.glb',
     (gltf) => {
       const model = gltf.scene;
       model.position.set(0, 0, 0);
